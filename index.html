@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Roshaan Waheed, MERN stack developer and aspiring application security engineer.">
+<title>Roshaan Waheed | MERN Stack Developer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<header class="nav">
+  <div class="wrap bar">
+    <a class="logo" href="#top">Roshaan<span>.</span></a>
+    <nav id="menu" aria-label="Primary">
+      <a href="#intro">Introduction</a><a href="#background">Background</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#testimonials">Testimonials</a><a href="#blog">Blog</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="tools">
+      <button class="icon" id="theme" aria-label="Switch colour theme" title="Switch theme">◐</button>
+      <button class="icon burger" id="burger" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" id="intro">
+    <div class="aurora" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="hello">Hi, I'm</p>
+      <h1>Roshaan Waheed</h1>
+      <p class="role">I'm a <span id="typed" aria-live="off"></span><i class="caret"></i></p>
+      <p class="lead">Software Engineering graduate from CUST, Rawalpindi. I build full-stack web apps with the MERN stack and I'm moving into application security, so what I ship is built to hold up.</p>
+      <div class="btns">
+        <a class="btn pri" href="#projects">View my work</a>
+        <a class="btn" href="#contact">Contact me</a>
+      </div>
+      <dl class="stats">
+        <div><dt data-count="5">0</dt><dd>MERN projects built</dd></div>
+        <div><dt data-count="2">0</dt><dd>internships</dd></div>
+        <div><dt data-count="1">0</dt><dd>malware analysis course</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section id="background"><div class="wrap">
+    <h2>Background</h2>
+    <div class="three two-col">
+      <div class="panel"><h3>Education</h3>
+        <p><b>BS Software Engineering</b></p>
+        <p class="muted">Capital University of Science and Technology (CUST), Rawalpindi</p>
+        <p class="muted">Software design, web development and security, including a hands-on Malware Analysis course.</p></div>
+      <div class="panel"><h3>Key certifications and training</h3>
+        <ul><li>Web Development internship, Arch Technologies</li><li>AI internship, CodeAlpha</li><li>Malware Analysis course, CUST</li></ul></div>
+    </div>
+  </div></section>
+
+  <section id="projects"><div class="wrap">
+    <h2>Selected projects</h2>
+    <p class="sub">Five full-stack MERN applications, each designed, built and hosted by me.</p>
+    <div class="chips" role="group" aria-label="Filter projects">
+      <button class="chip on" data-f="all">All</button><button class="chip" data-f="commerce">Commerce</button>
+      <button class="chip" data-f="realtime">Real-time</button><button class="chip" data-f="productivity">Productivity</button><button class="chip" data-f="careers">Careers</button>
+    </div>
+    <div class="grid" id="grid">
+      <article class="card" data-c="commerce"><h3>Shoperia</h3><p class="r">Full-stack developer</p>
+        <p>Fashion e-commerce store with cart, checkout and an admin panel for managing products and orders.</p>
+        <p class="o">Outcome: a complete buying flow with image uploads and animated page transitions.</p>
+        <div class="tags"><span>React</span><span>Node</span><span>MongoDB</span><span>Cloudinary</span><span>Framer Motion</span></div></article>
+      <article class="card" data-c="realtime"><h3>LashChat</h3><p class="r">Full-stack developer</p>
+        <p>Real-time chat app where messages arrive instantly without refreshing the page.</p>
+        <p class="o">Outcome: live two-way messaging over WebSockets.</p>
+        <div class="tags"><span>React</span><span>Express</span><span>MongoDB</span><span>Socket.io</span></div></article>
+      <article class="card" data-c="productivity"><h3>OutDo</h3><p class="r">Full-stack developer</p>
+        <p>Project management tool with Kanban boards where tasks are dragged between columns.</p>
+        <p class="o">Outcome: smooth drag-and-drop task tracking with saved board state.</p>
+        <div class="tags"><span>React</span><span>Node</span><span>MongoDB</span><span>dnd-kit</span></div></article>
+      <article class="card" data-c="careers"><h3>Hirenixa</h3><p class="r">Full-stack developer</p>
+        <p>Job portal for Pakistan where employers post roles and candidates search by city.</p>
+        <p class="o">Outcome: first built on Next.js and Firebase, then rebuilt as a true MERN application.</p>
+        <div class="tags"><span>React</span><span>Express</span><span>MongoDB</span><span>JWT</span></div></article>
+      <article class="card" data-c="productivity"><h3>Spendoray</h3><p class="r">Full-stack developer</p>
+        <p>Expense tracker with secure sign-in and charts showing where your money goes each month.</p>
+        <p class="o">Outcome: rebuilt from Firebase into a MERN app with token-based authentication.</p>
+        <div class="tags"><span>React</span><span>Redux Toolkit</span><span>Recharts</span><span>JWT</span></div></article>
+    </div>
+    <p class="more"><a href="https://github.com/RoshaanWaheed">See all source code on GitHub</a></p>
+  </div></section>
+
+  <section id="skills"><div class="wrap">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div><h3>Front end</h3><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Redux Toolkit</span><span>Tailwind CSS</span></div></div>
+      <div><h3>Back end</h3><div class="tags"><span>Node.js</span><span>Express</span><span>REST APIs</span><span>Socket.io</span><span>JWT auth</span></div></div>
+      <div><h3>Data and tools</h3><div class="tags"><span>MongoDB</span><span>Mongoose</span><span>Git and GitHub</span><span>Postman</span><span>Vercel</span></div></div>
+      <div><h3>Security (learning)</h3><div class="tags"><span>Malware analysis</span><span>Secure authentication</span><span>Web app security basics</span></div></div>
+    </div>
+  </div></section>
+
+  <section id="experience"><div class="wrap">
+    <h2>Experience</h2>
+    <ol class="timeline">
+      <li><b>Arch Technologies</b><span>Web Development Intern</span><p>Built this portfolio and a to-do list web app with add, edit, delete and saved tasks.</p></li>
+      <li><b>CodeAlpha</b><span>AI Intern</span><p>Worked on AI projects including a language translation tool and object detection.</p></li>
+      <li><b>Fiverr</b><span>Freelance developer</span><p>Exploring web development gigs for small business clients.</p></li>
+    </ol>
+  </div></section>
+
+  <section id="testimonials" class="slim"><div class="wrap">
+    <h2>Testimonials</h2>
+    <div class="panel" data-todo="Replace with a real endorsement"><p class="muted">Endorsements from mentors and clients will appear here.</p></div>
+  </div></section>
+
+  <section id="blog" class="slim"><div class="wrap">
+    <h2>Blog and articles</h2>
+    <div class="panel" data-todo="Link your LinkedIn posts"><p class="muted">Project write-ups and learning notes are shared on LinkedIn.</p><p><a href="https://www.linkedin.com/in/YOUR-LINKEDIN">Read my posts on LinkedIn</a></p></div>
+  </div></section>
+
+  <section id="achievements" class="slim"><div class="wrap">
+    <h2>Achievements</h2>
+    <div class="panel"><ul><li>Built five full-stack MERN applications.</li><li>Rebuilt two Firebase projects as complete MERN apps.</li><li>Participation certificate for CUST Hackathon</li><li>Certificate of completion for Youth Service Program</li></ul></div>
+  </div></section>
+
+  <section id="contact"><div class="wrap two">
+    <div>
+      <h2>Let's work together</h2>
+      <p class="sub">Open to full-stack and front-end developer roles in Rawalpindi and Islamabad, and to freelance projects.</p>
+      <p><a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a></p>
+      <p><a href="https://www.linkedin.com/in/YOUR-LINKEDIN">LinkedIn</a></p>
+      <p><a href="https://github.com/RoshaanWaheed">GitHub: RoshaanWaheed</a></p>
+      <p><a href="https://roshaanwaheed.vercel.app">roshaanwaheed.vercel.app</a></p>
+    </div>
+    <form id="form" novalidate>
+      <label>Your name<input name="name" required autocomplete="name"></label>
+      <label>Your email<input name="email" type="email" required autocomplete="email"></label>
+      <label>Message<textarea name="message" rows="4" required></textarea></label>
+      <p class="err" id="err" role="alert"></p>
+      <button class="btn pri" type="submit">Send message</button>
+    </form>
+  </div></section>
+</main>
+
+<footer><div class="wrap">&copy; <span id="year"></span> Roshaan Waheed.</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
