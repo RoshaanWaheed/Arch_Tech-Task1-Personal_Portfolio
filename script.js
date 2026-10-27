@@ -24,7 +24,7 @@ $$("#menu a").forEach((a) => a.addEventListener("click", () => {
 }));
 
 // ---- Typing effect ----
-const roles = ["MERN stack developer", "front-end engineer", "future AppSec engineer", "lifelong learner"];
+const roles = ["full stack developer", "front-end engineer", "future AppSec engineer", "lifelong learner"];
 const typed = $("#typed");
 let r = 0, c = 0, deleting = false;
 function type() {
